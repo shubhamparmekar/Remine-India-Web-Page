@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.90" />
+    <title>Remine India</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pb-3 pt-3">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-xxl-5" href="#">Remine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse justify-content-center px-xl-5 pe-xl-5 " id="navbarSupportedContent">
+                <ul class="navbar-nav move-content">
+                    <li class="nav-item px-xl-5 pe-xl-5">
+                        <a class="nav-link active fs-5 text-center" aria-current="page" href="#">Home</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner opacity-85">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1313&q=80"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex justify-content-center align-items-center h-100"
+          >
+            <div class="text-center">
+              <p class="carouselText" >Sustainable Environment</p>
+              <button class="btn btn-primary rounded-5 p-2 mt-2">
+                Know More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661770030805-0abb8fd880f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1276&q=80"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex justify-content-center align-items-center h-100"
+          >
+            <div class="text-center">
+              <p class="carouselText">Li-Batteries</p>
+              <button class="btn btn-primary rounded-5 p-2 mt-2">
+                Know More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/11/18/13/11/phone-3823126_960_720.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex justify-content-center align-items-center h-100"
+          >
+            <div class="text-center">
+              <p class="carouselText">E-Waste Recycle</p>
+              <button class="btn btn-primary rounded-5 p-2 mt-2">
+                Know More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div>
+      <div class="header">
+        <h1>Remine India</h1>
+        <div>
+          <p class="content">
+            Welcome to Remine India, a sustainable startup dedicated to
+            recycling e-waste<br /> and Li batteries.
+            Our mission is to reduce the environmental impact of electronic<br />
+            waste and promote a cleaner, healthier planet for the generations to come.
+          </p>
+        </div>
+      </div>
+
+      <div class="first">
+        <h1>Our Services</h1>
+      <div class="cards">
+        <div class="card" style="width: 18rem">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top"
+            alt="lithium-ion"
+            width="200"
+            height="200"
+          />
+          <div class="card-body">
+            <h4>Recycling</h4>
+            <p class="card-text">
+              We specialize in the safe and responsible recycling of E-Waste, which can be extremely hazardous if not disposed of properly.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top"
+            alt="ewaste"
+            width="200"
+            height="200"
+          />
+          <div class="card-body">
+            <h4>Repair</h4>
+            <p class="card-text">
+              We recycle all types of e-waste including computers, laptops, mobile phones, printers, televisions, and more. Also provide repairing.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1515344905723-babc01aac23d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+            class="card-img-top"
+            alt="sustainability"
+            width="200"
+            height="200"
+          />
+          <div class="card-body">
+            <h4>Pickup</h4>
+            <p class="card-text">
+              Our team of experts use state-of-the-art equipment to ensure that all e-waste and batteries are recycled in an environmentally-friendly way.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="sec">
+        <h1>Why Choose Us</h1>
+        <div class="shape">
+          <div class="col-4 col-sm-3 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText"
+                ><strong>Sustainable e-waste and battery recycling solution.</strong></span
+              >
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-3 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText1"
+                ><strong> Our services are affordable and convenient.</strong></span
+              >
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-3 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText2"
+                ><strong>Customized solutions for businesses and individuals.</strong></span
+              >
+            </div>
+          </div>
+          <div class="col-4 col-sm-3 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText3"
+                ><strong>Our team is skilled in <br>e-waste and battery recycling.</strong></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="third">
+        <h1>Our Commitment</h1>
+        <div>
+          <p class="content">
+            At Remine India, we are committed to providing the highest standards
+            of e-waste <br />and Li battery recycling services while reducing
+            the environmental impact of these <br />waste streams. Our team of
+            experts follows all regulatory guidelines and industry<br />
+            standards to ensure that our services are safe, efficient,
+            eco-friendly and sustainable.
+          </p>
+        </div>
+      </div>
+
+      <div class="sec">
+        <h1>FAQ</h1>
+        <div class="shape">
+          <div class="col-4 col-sm-5 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText"
+                ><strong>What is E-Waste?</strong><br>
+                <span class="formText">This refers to electronic <br> products that have reached<br> the end of their useful life</span> 
+            </span>
+                
+                
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-5 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText1"
+                ><strong>What is Sustainability?</strong><br>
+                <span class="formText">This refers to meeting the needs  of<br> the present without compromising<br> the ability of future generations</span></span>
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-5 col-md-2 sqaure">
+            <div class="d-flex align-items-center justify-content-center">
+              <span class="spanText2"
+                ><strong>What is Eco-Friendly?</strong><br>
+                <span class="formText">This refers to products or actions <br>that are not harmful to the <br>environment or ecosystems</span></span>
+            </div>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="last">
+        <footer class="footer mt-auto">
+            <div class="container">
+              <div class="internal-footer">
+                <h3>Remine India</h3>
+                <div>
+                    <p>
+                      We are incredibly proud to be <br>
+                      serving a diverse range of individuals
+                      and businesses all across India
+                    </p>
+                </div>
+              </div>
+
+              <div class="side-footer">
+                <h3>Get In Touch</h3>
+                <p>
+                  If you have any questions or would like <br>to know more about our services,
+                   please feel free to contact us. We are always happy to help!
+                </p>
+              </div>
+            </div>
+          </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

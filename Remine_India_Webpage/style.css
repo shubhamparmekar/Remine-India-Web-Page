@@ -1,0 +1,184 @@
+.carousel-item {
+    height: 40rem;
+}
+
+.carouselText {
+    font-size: 3.5rem;
+    color: yellowgreen;
+    -webkit-text-stroke: 1px #000;
+    font-weight: bold;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.move-content {
+    margin-left: 72rem;
+}
+
+.header {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.header p {
+    margin-top: 2rem;
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.first {
+    margin: 5rem;
+}
+
+.first h1 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.circle {
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: 15rem;
+    height: 10rem;
+}
+
+.shape {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.sec {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.spanText {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
+    word-wrap: normal;
+}
+
+.spanText1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
+    word-wrap: normal;
+}
+
+.spanText2 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
+    word-wrap: normal;
+}
+
+.spanText3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
+    word-wrap: normal;
+}
+
+.third {
+    margin-top: 5rem;
+}
+
+.third h1 {
+    text-align: center;
+}
+
+.third p {
+    margin-top: 2rem;
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+.sqaure {
+    width: 7rem;
+    height: 23rem;
+    background-color: lightblue;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.formText {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 2rem;
+}
+
+.last {
+    margin-top: 5rem;
+}
+
+.last footer {
+    height: 14rem;
+    background-color: #2b2929;
+}
+
+.last p {
+    color: white;
+}
+
+.internal-footer {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.internal-footer h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.internal-footer p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.side-footer {
+    padding-left: 35rem;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem;
+  padding-right: 5rem; */
+}
+
+.side-footer h3 {
+    color: white;
+    text-align: center;
+}
+
+.side-footer p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
